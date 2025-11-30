@@ -19,7 +19,6 @@ const NavBar = () => {
         if(top>=0 && top < window.innerHeight / 2){
           setActive(id);
         }
-        console.log(el, id);
       });
       
     }

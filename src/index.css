@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import "flowbite";
+@import "tailwindcss";
+
+
+:root {
+  --font-poppins: "Poppins", sans-serif;
+  --my-bg-color: #080A1B;
+}
+.font-poppins {
+  font-family: var(--font-poppins);
+}
+
+@theme {
+  --color-primaryText: #647DFF;
+  --color-bg: #080A1B;
+  --color-hoverBg: #16193A;
+  --color-sectionfcolor: #232330;
+}
+
+body{
+    background-color: var(--my-bg-color);
+}
+html {
+  scroll-behavior:  smooth;
+}

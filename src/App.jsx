@@ -1,9 +1,10 @@
-import { useState } from 'react'
+import { useEffect } from 'react'
 import Home from './sections/Home'
 import About from './sections/About'
 import './App.css'
 import 'flowbite';
 function App() {
+
    useEffect(() => {
     // Initialize Flowbite after component mounts
     import('flowbite').then(module => {

@@ -9,7 +9,7 @@ const NavBar = () => {
   useEffect(()=> {
 
     const handleScroll = () => {
-      const sections = ['home', 'about', 'skill', 'project', 'contact'];
+      const sections = ['home', 'about', 'skill', 'projects', 'contact'];
 
 
       sections.forEach((id) => {
@@ -47,7 +47,7 @@ const NavBar = () => {
 
     
 
-<nav className="w-full fixed z-20  start-0 border-b border-hoverBg">
+<nav className="w-full fixed z-20  start-0 border-b  bg-white/10 backdrop-blur-lg ">
   <div className="max-w-7xl flex flex-wrap items-center justify-between mx-auto py-4">
     <a href='#home' className='font-extrabold text-3xl pl-2 lg:pl-0 lg-text-4xl text-primaryText'>JEEVA</a>
     <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse md:pr-2">
@@ -66,13 +66,13 @@ const NavBar = () => {
           <a href="#about" className={`${active === 'about' ? "text-primaryText font-bold" : "text-white"} block py-2 px-3 hover:bg-hoverBg rounded-sm `}>About</a>
         </li>
         <li>
-          <a href="#" className={`${active === 'skill' ? "text-primaryText font-bold" : "text-white"} block py-2 px-3 hover:bg-hoverBg rounded-sm `}>Skill</a>
+          <a href="#skill" className={`${active === 'skill' ? "text-primaryText font-bold" : "text-white"} block py-2 px-3 hover:bg-hoverBg rounded-sm `}>Skill</a>
         </li>
         <li>
-          <a href="#" className={`${active === 'project' ? "text-prima ryText font-bold" : "text-white"} block py-2 px-3 hover:bg-hoverBg rounded-sm `}>Projects</a>
+          <a href="#projects" className={`${active === 'projects' ? "text-primaryText font-bold" : "text-white"} block py-2 px-3 hover:bg-hoverBg rounded-sm `}>Projects</a>
         </li>
         <li>
-          <a href="#" className={`${active === 'contact' ? "text-primaryText font-bold" : "text-white"} block py-2 px-3 hover:bg-hoverBg rounded-sm `}>Contact</a>
+          <a href="#contact" className={`${active === 'contact' ? "text-primaryText font-bold" : "text-white"} block py-2 px-3 hover:bg-hoverBg rounded-sm `}>Contact</a>
         </li>
       </ul>
     </div>

@@ -151,7 +151,7 @@ const About = () => {
                   <span className="text-primaryText">Summary</span> :
                 </h3>
                 <p className="max-w-[690px] text-md   leading-6 text-sm font-light mt-2 ">
-                  I am currently in my final year, maintaining a 7.5 GPA. My
+                  I am currently in my final year, maintaining a 7.5 CGPA. My
                   education inspired my interest in full-stack development,
                   helping me apply theory to real projects and collaborate using
                   tools like Git, React, and Firebase. I consistently explore

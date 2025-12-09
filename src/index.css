@@ -12,9 +12,9 @@
 }
 
 @theme {
-  --color-primaryText: #647DFF;
+  --color-primaryText: #647dff;
   --color-bg: #080A1B;
-  --color-hoverBg: #16193A;
+  --color-hoverBg: rgb(22, 25, 58);
   --color-sectionfcolor: #232330;
 }
 

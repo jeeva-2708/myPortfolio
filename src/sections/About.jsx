@@ -129,7 +129,7 @@ const About = () => {
                     <a href="#contact">Contact Me</a>
                   </div>
                   <div className="py-3.5 px-6 bg-primaryText font-bold rounded-md">
-                    <a href="">Hire Me</a>
+                    <a href="#contact">Hire Me</a>
                   </div>
                 </div>
               </div>
@@ -163,7 +163,7 @@ const About = () => {
                     <a href="#contact">Contact Me</a>
                   </div>
                   <div className="py-3.5 px-6 bg-primaryText font-bold rounded-md">
-                    <a href="">Hire Me</a>
+                    <a href="#contact">Hire Me</a>
                   </div>
                 </div>
               </div>

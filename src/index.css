@@ -16,10 +16,12 @@
   --color-bg: #080A1B;
   --color-hoverBg: rgb(22, 25, 58);
   --color-sectionfcolor: #232330;
+  --color-overlayBg: rgb(22, 25, 58)
 }
 
 body{
     background-color: var(--my-bg-color);
+    /* height: 4000px; */
 }
 html {
   scroll-behavior:  smooth;

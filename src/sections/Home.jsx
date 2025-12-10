@@ -13,7 +13,7 @@ const Home = () => {
             <div className="flex gap-4"> 
               <span className="-rotate-90"><a href="https://www.linkedin.com/in/jeeva-viswanathan-b2a44b274/"><SiLinkedin /></a></span>
               <span className="-rotate-90"><a href="https://github.com/jeeva-2708"><SiGithub /></a></span>
-              <span className="-rotate-90"><a href=""><SiInstagram /></a></span>
+              <span className="-rotate-90"><a href="https://www.instagram.com/jeeva._27/"><SiInstagram /></a></span>
             </div>
           </div>
         {/* Main section */}

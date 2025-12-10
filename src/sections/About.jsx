@@ -198,8 +198,8 @@ const About = () => {
                   <div className="py-3.5 px-6 border border-primaryText rounded-md ">
                     <a href="#contact">Contact Me</a>
                   </div>
-                  <div className="py-3.5 px-6 bg-primaryText font-bold rounded-md">
-                    <a href="">Hire Me</a>
+                  <div className="py-3.5 px-6 bg-[#3C54DB] active:bg-[#3B52C3] hover:bg-primaryText font-bold rounded-md">
+                    <a href="#contact">Hire Me</a>
                   </div>
                 </div>
               </div>

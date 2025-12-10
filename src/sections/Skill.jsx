@@ -4,7 +4,7 @@ const Skill = () => {
   const [active, setActive] = useState("frontEnd");
 
   return (
-    <section id="skill" className="pt-32 min-h-screen">
+    <section id="skill" className="pt-32 ">
       <div>
         <h1 className="text-sectionfcolor font-bold text-center text-7xl sm:text-8xl md:text-[120px]">
           SKILL

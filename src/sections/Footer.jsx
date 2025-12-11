@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <>
     <section id="footer" className="pl-8 md:px-20 max-w-7xl mx-auto font-poppins mb-20 mt-20 md:mt-0">
-      <div className="flex flex-col [769px]:flex-row gap-10  justify-between">
+      <div className="flex flex-col lg:flex-row gap-10  justify-between">
         {/* About me */}
         <div className="flex flex-col gap-5 md:gap-10 ">
           <h1 className="text-primaryText font-extrabold text-3xl sm:text-5xl">JEEVA</h1>
